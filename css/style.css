@@ -398,6 +398,12 @@ header {
     border-radius: var(--radius-sm) var(--radius-sm) 0 0;
 }
 
+.activites-cards .card-content {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
 /****** Footer ***********/
 footer {
     display: flex;
