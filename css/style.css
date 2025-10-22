@@ -255,7 +255,7 @@ header {
 /****** Cards ***********/
 
  .card .card-content{
-    margin-left: 0.5rem;
+    margin-left: 1rem;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -502,6 +502,12 @@ footer {
 
     .search-section {
         padding: 0 var(--spacing-md);
+    }
+
+    #location-input {
+        max-width: none;
+        min-width: 0;
+        flex: 1;
     }
 
     #search {
